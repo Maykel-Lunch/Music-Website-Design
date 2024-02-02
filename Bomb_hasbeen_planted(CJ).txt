@@ -7,4 +7,4 @@ I added THIS line of text yung GitHub app
 
 Russel is here in the middle of the night. (Edited Using Git)
 
-Russel was here.. (Edited Using Git Hub Desktop)
+Russel was here. (Edited Using Git Hub Desktop)

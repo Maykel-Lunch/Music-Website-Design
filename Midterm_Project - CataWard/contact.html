@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/CataWard_Icon.png">
+    <title>Contact Us | CataWard.com</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- For Logo -->
+            <img src="assets/images/CataWard-Logo.png" alt="CataWard" srcset="" style="height: 100px; width: 100px;">
+
+            <label for="topics">Disasters</label>
+            <select name="" id="">
+                <option value=""><a href="">Typhoon</a></option>
+                <option value=""><a href="">Flood</a></option>
+                <option value=""><a href="">Earthquake</a></option>
+                <option value=""><a href="">Landslide</a></option>
+                <option value=""><a href="tsunami.html">Tsunami</a></option>
+            </select>
+
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>At <b>CataWard</b>, we're committed to providing you with the information and resources you need to stay
+            safe and prepared for emergencies. If you have any questions, feedback, or need assistance, please don't
+            hesitate to get
+            in touch with us.</p>
+        <p><strong>Our Address:</strong></p>
+
+        <p>
+            Bicol University, College of Science <br>
+            Legaspi City, 4500<br>
+            Philippines
+        </p>
+        <p>Phone: <strong>------- </strong><br>
+            Email: <strong>info@cataward.com</strong>
+        </p>
+
+        <!--add form for inquiries-->
+        <p>Alternatively, you can fill out the form below and we'll get back to you as soon as possible.</p>
+
+        <!--optional. may delete or update this if needed-->
+        <form action="contact_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+
+        <p>Stay connected with us on social media for the latest updates, tips, and
+            resources on disaster preparedness: <br>
+            <a href="#"><ion-icon name="logo-facebook">facebook</ion-icon></a>
+            <a href="#">Twitter</a>
+            <a href="#"><ion-icon name="logo-instagram">Instagram</ion-icon></a> <br>
+            We're here to help you stay safe and prepared for any emergency.
+            Thank you for visiting CataWard!
+        </p>
+    </section>
+
+    <footer>
+        <div class="contact-info">
+            <h3>Contact Us</h3>
+            <p>Email: </p>
+            <p>Phone: </p>
+        </div>
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <a href="#"><ion-icon name="logo-facebook">facebook</ion-icon></a>
+            <a href="#">Twitter</a>
+            <a href="#"><ion-icon name="logo-instagram">Instagram</ion-icon></a>
+        </div>
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+            <a href="#">Emergency Procedures</a>
+            <a href="#">Safety Tips</a>
+            <a href="#">Volunteer</a> <!--optional-->
+        </div>
+        <div class="legal-info">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <p>© 2024 Catastrophe Ward</p>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
